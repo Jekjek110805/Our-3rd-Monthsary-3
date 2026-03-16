@@ -70,10 +70,10 @@ export default function App() {
   ];
 
   const memories = [
-    { url: "630648709_122195280770377570_4952980241122237555_n.jpg", caption: "Our first laughs together" },
-    { url: "606412983_1590592348734022_4332103637857592164_n.jpg", caption: "A moment I never want to forget" },
-    { url: "a425a95b-3318-4748-bb54-6cb53799a15e - Copy.jpg", caption: "My favorite smile" },
-    { url: "da5f0076-7634-496e-a0d2-40dbb5d4e3d8.jpg", caption: "Just us being happy" }
+    { url: "/Emall 1.jpg", caption: "Our first laughs together" },
+    { url: "/Plaza 2.jpg", caption: "A moment I never want to forget" },
+    { url: "Sinulog 4.jpg", caption: "My favorite smile" },
+    { url: "HolPool.jpg", caption: "Just us being happy" }
   ];
 
   if (showIntro) {
