@@ -27,7 +27,7 @@ export const MusicPlayer: React.FC = () => {
         </button>
         <div className="hidden sm:block pr-4">
           <p className="text-xs font-medium text-white/80 uppercase tracking-widest">E play ang music aron ma feel nimo akong lovelove🎵</p>
-          <p className="text-[10px] text-white/50">A THOUSAND YEARS | ug di mogana aynalang</p>
+          <p className="text-[10px] text-white/50">Best Part | DANIEL CEASAR</p>
         </div>
         <audio
           ref={audioRef}
