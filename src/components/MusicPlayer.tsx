@@ -26,13 +26,13 @@ export const MusicPlayer: React.FC = () => {
           {isPlaying ? <Pause size={20} /> : <Play size={20} className="ml-1" />}
         </button>
         <div className="hidden sm:block pr-4">
-          <p className="text-xs font-medium text-white/80 uppercase tracking-widest">Our Song 🎵</p>
-          <p className="text-[10px] text-white/50">Soft Romantic Instrumental</p>
+          <p className="text-xs font-medium text-white/80 uppercase tracking-widest">E play ang music aron ma feel nimo akong lovelove🎵</p>
+          <p className="text-[10px] text-white/50">A THOUSAND YEARS</p>
         </div>
         <audio
           ref={audioRef}
           loop
-          src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" // Placeholder romantic-ish track
+          src="Christina Perri - A Thousand Years (Lyrics).mp3" // Placeholder romantic-ish track
         />
       </div>
     </div>

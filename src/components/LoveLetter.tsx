@@ -18,7 +18,7 @@ export const LoveLetter: React.FC = () => {
 
   return (
     <div className="flex flex-col items-center justify-center py-20">
-      <h2 className="text-3xl font-serif italic text-rose-300 mb-12">I wrote something from my heart.</h2>
+      <h2 className="text-3xl font-serif italic text-rose-300 mb-12">nakoy gisulat nimo mii, from my heart.</h2>
       
       <div className="relative w-full max-w-lg aspect-[4/3] flex items-center justify-center">
         <AnimatePresence mode="wait">
@@ -47,7 +47,7 @@ export const LoveLetter: React.FC = () => {
               <div className="absolute -top-4 -left-4 text-4xl">✨</div>
               <div className="absolute -bottom-4 -right-4 text-4xl">✨</div>
               
-              <p className="mb-4 text-lg">My love,</p>
+              <p className="mb-4 text-lg">My Mamilove,</p>
               <p className="mb-4">
                 These past three months with you have been one of the most beautiful experiences of my life.
               </p>
@@ -63,8 +63,8 @@ export const LoveLetter: React.FC = () => {
               <p className="mb-6">
                 You are someone incredibly special to me, and I am grateful every day that I have you in my life.
               </p>
-              <p className="mb-2">Happy 3rd Monthsary, my love.</p>
-              <p className="font-bold text-rose-600">I love you more than words can explain. ❤️</p>
+              <p className="mb-2">Happy 3rd Monthsary, Aking mahal na dragon.</p>
+              <p className="font-bold text-rose-600">I love you more than words can explain. Mamilovee ❤️</p>
             </motion.div>
           )}
         </AnimatePresence>

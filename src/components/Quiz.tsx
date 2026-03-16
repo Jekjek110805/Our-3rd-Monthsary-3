@@ -4,18 +4,18 @@ import confetti from 'canvas-confetti';
 
 const questions = [
   {
-    question: "When did we start our relationship?",
-    options: ["3 months ago", "6 months ago", "1 year ago", "Yesterday"],
+    question: "Kanus a gani ta nagkauyab?",
+    options: ["Dec 20, 2026", "Dec 10, 2025", "November 8, 2025", "Wako kabalo dii"],
     correct: 0,
   },
   {
-    question: "Who said I love you first?",
-    options: ["Me", "You", "Both at once", "It's a secret"],
+    question: "Kinsay ni kiss una?",
+    options: ["Ako(Jessa)", "Ikaw (Jake)", "Kita duha", "Ambot lang dii"],
     correct: 0, // Assuming "Me" (the user) for the quiz logic, or can be customized
   },
   {
-    question: "What is our favorite thing to do together?",
-    options: ["Watching movies", "Talking for hours", "Eating out", "Everything"],
+    question: "Unsa imong pinaka memorable nga quality time?",
+    options: ["Laag Sinulog", "Katong Gabalik tas Plaza", "Sleep together pag Pasko/New Year", "Kana Tanan"],
     correct: 3,
   },
 ];
@@ -74,8 +74,8 @@ export const Quiz: React.FC = () => {
             className="text-center space-y-4"
           >
             <div className="text-5xl mb-4">❤️</div>
-            <h3 className="text-2xl font-serif text-white">You know us perfectly ❤️</h3>
-            <p className="text-white/60 text-sm italic">Every little detail of our story is etched in my heart.</p>
+            <h3 className="text-2xl font-serif text-white">Salamat sa pagpili, mangutana kas imong score? 0/3 ❤️</h3>
+            <p className="text-white/60 text-sm italic">Eme lang, perfect naka daan sakong mata langging! kiss sa bi HAHAHAHA</p>
           </motion.div>
         )}
       </AnimatePresence>

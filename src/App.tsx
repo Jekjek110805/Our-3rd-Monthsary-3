@@ -55,25 +55,25 @@ export default function App() {
   };
 
   const gratitudeMessages = [
-    "Thank you for loving me.",
-    "Thank you for being patient with me.",
-    "Thank you for the sacrifices you make for us.",
-    "Thank you for always being there.",
-    "You make my life brighter.",
+    "salamat sa way puas nga pag pangga.",
+    "Salamat sa pagsabot, ug taas nga pasensya",
+    "Salamat sa sakripisyo, lalo na ug bisitaon ko nmo, magkita lang ta.",
+    "Salamat kay kanunay kang naa diha, para nako, nag supporta, ug nisalig sakoa",
+    "Imo jud ko gitagaan ug rason mii nga maningkamot ko para sakong future, and para satoa",
     "I appreciate you more than words can explain."
   ];
 
   const timeline = [
-    { month: "Month 1", desc: "The beginning of something beautiful." },
-    { month: "Month 2", desc: "Getting closer and understanding each other more." },
-    { month: "Month 3", desc: "Falling deeper in love with you." }
+    { month: "Month 1", desc: "Nag 1 month balik, kay nagbuwag unta, maygae gabalik. Kay love man ang each other diba? Why not?" },
+    { month: "Month 2", desc: "Time nga gi test  atong patience, medjo lisud, pero karon ga tinabangay tag angat sa usag-usa, grateful kaayo ko ana nga giubanan ko nimo atubangan sa tanan" },
+    { month: "Month 3", desc: "Mao nani karon, New Month, New Challenges. Laban rajud ta mamii, Imo nako gi pakitaan ug unsa imong kaya ug imong gi prove nga bisag walang wala ko, naa gihapon ka diha. Bisag lisud ko, naa ka diha, ug bisag unsay challenges, naa raka diha nag padayun ug supporta nako. Maong salamat mii, I assure you nga mobawi ko nimo, not just now. But until maatubang tika sa altar. Iloveyouuu! <3 " }
   ];
 
   const memories = [
-    { url: "https://picsum.photos/seed/love1/600/800", caption: "Our first laughs together" },
-    { url: "https://picsum.photos/seed/love2/600/800", caption: "A moment I never want to forget" },
-    { url: "https://picsum.photos/seed/love3/600/800", caption: "My favorite smile" },
-    { url: "https://picsum.photos/seed/love4/600/800", caption: "Just us being happy" }
+    { url: "630648709_122195280770377570_4952980241122237555_n.jpg", caption: "Our first laughs together" },
+    { url: "606412983_1590592348734022_4332103637857592164_n.jpg", caption: "A moment I never want to forget" },
+    { url: "a425a95b-3318-4748-bb54-6cb53799a15e - Copy.jpg", caption: "My favorite smile" },
+    { url: "da5f0076-7634-496e-a0d2-40dbb5d4e3d8.jpg", caption: "Just us being happy" }
   ];
 
   if (showIntro) {
@@ -84,24 +84,24 @@ export default function App() {
           <AnimatePresence mode="wait">
             {introStep === 1 && (
               <motion.div key="step1" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }}>
-                <TypewriterText text="Hi my love..." />
+                <TypewriterText text="Hello Palangga..." />
               </motion.div>
             )}
             {introStep === 2 && (
               <motion.div key="step2" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }}>
-                <TypewriterText text="I made something for you." />
+                <TypewriterText text="Ako ni gibuhat para nimo, ug para satong monthsary." />
               </motion.div>
             )}
             {introStep === 3 && (
               <motion.div key="step3" initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="space-y-8">
-                <h1 className="text-4xl md:text-6xl font-display text-rose-400 text-glow">Happy 3rd Monthsary ❤️</h1>
+                <h1 className="text-4xl md:text-6xl font-display text-rose-400 text-glow">Smile sa daan bi, before nimo ni openon mamii ❤️</h1>
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={handleOpenSurprise}
                   className="px-8 py-4 bg-rose-500 text-white rounded-full font-medium shadow-[0_0_20px_rgba(255,111,165,0.4)] hover:bg-rose-600 transition-all"
                 >
-                  Open Your Surprise
+                  Abliha ni if nag smile naka
                 </motion.button>
               </motion.div>
             )}
@@ -128,17 +128,17 @@ export default function App() {
         >
           <h1 className="text-5xl md:text-8xl font-display text-white mb-6 leading-tight">
             Happy 3rd Monthsary, <br />
-            <span className="text-rose-400 text-glow">My Love ❤️</span>
+            <span className="text-rose-400 text-glow">Mamii Love ❤️</span>
           </h1>
           <p className="text-lg md:text-xl text-white/60 font-serif italic mb-12">
-            "These past three months with you have been one of the most beautiful chapters of my life."
+            "Tulo nako ka bulan ga agwanta sa imong dragon nga batasan, but despite these past three months with you have been one of the most beautiful chapters of my life."
           </p>
           <motion.div
             animate={{ y: [0, 10, 0] }}
             transition={{ duration: 2, repeat: Infinity }}
             className="flex flex-col items-center gap-2 text-white/40"
           >
-            <span className="text-xs uppercase tracking-[0.4em]">Scroll to start our story</span>
+            <span className="text-xs uppercase tracking-[0.4em]">E scrolldown kung ganahan paka makakita sa atong story</span>
             <ChevronDown size={20} />
           </motion.div>
         </motion.div>
@@ -151,7 +151,7 @@ export default function App() {
           whileInView={{ opacity: 1 }}
           className="text-3xl md:text-5xl font-serif italic text-center mb-20 text-rose-300"
         >
-          Our Memories Gallery
+          Our Memories Gallery Love
         </motion.h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {memories.map((memory, idx) => (
@@ -241,7 +241,7 @@ export default function App() {
           onClick={() => setShowSecret(true)}
           className="text-rose-400/30 hover:text-rose-400 text-xs uppercase tracking-[0.5em] transition-all duration-500"
         >
-          Click if you miss me
+          Click ni, kung gimingaw kas imong bana
         </motion.button>
         <AnimatePresence>
           {showSecret && (
@@ -256,7 +256,7 @@ export default function App() {
                 <div className="absolute -top-6 -left-6 text-4xl animate-bounce">💖</div>
                 <div className="absolute -bottom-6 -right-6 text-4xl animate-bounce delay-150">💖</div>
                 <p className="text-2xl font-serif italic text-white leading-relaxed">
-                  "If you're reading this... <br /> I probably miss you too."
+                  "HAHAHAHA <br /> uto2 jud ka mii oi, miss you too."
                 </p>
                 <p className="mt-6 text-rose-400 text-sm uppercase tracking-widest">I love you so much</p>
               </div>
@@ -294,9 +294,9 @@ export default function App() {
           whileInView={{ opacity: 1, scale: 1 }}
           className="space-y-8 relative z-10"
         >
-          <h1 className="text-6xl md:text-9xl font-display text-white text-glow">I Love You ❤️</h1>
+          <h1 className="text-6xl md:text-9xl font-display text-white text-glow">I Love You My Dragon ❤️</h1>
           <p className="text-xl md:text-2xl text-white/60 font-serif italic">
-            And this is only the beginning of our story.
+            And this is only the beginning of our story mii, laban rata always aron mas mo lig on pa!
           </p>
           <motion.button
             whileHover={{ scale: 1.05 }}
