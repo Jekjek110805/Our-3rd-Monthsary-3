@@ -32,7 +32,7 @@ export const MusicPlayer: React.FC = () => {
         <audio
           ref={audioRef}
           loop
-          src="Christina Perri - A Thousand Years (Lyrics).mp3" // Placeholder romantic-ish track
+          src="/H.E.R. - Best Part (Lyrics) Ft. Daniel Caesar.mp3" // Placeholder romantic-ish track
         />
       </div>
     </div>
