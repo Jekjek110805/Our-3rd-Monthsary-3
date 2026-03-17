@@ -32,7 +32,7 @@ export const MusicPlayer: React.FC = () => {
         <audio
           ref={audioRef}
           loop
-          src="/H.E.R. - Best Part (Lyrics) Ft. Daniel Caesar.mp3" // Placeholder romantic-ish track
+          src="https://files.cvaultx.com/wp-content/uploads/music/2022/01/HER_-_Best_Part_CeeNaija.com_.mp3" // Placeholder romantic-ish track
         />
       </div>
     </div>
