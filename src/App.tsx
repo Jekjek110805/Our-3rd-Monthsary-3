@@ -70,10 +70,10 @@ export default function App() {
   ];
 
   const memories = [
-    { url: "/Emall 1.jpg", caption: "Our first laughs together" },
-    { url: "/Plaza 2.jpg", caption: "A moment I never want to forget" },
+    { url: "https://scontent.fceb5-1.fna.fbcdn.net/v/t39.30808-6/631223877_122195280728377570_5872314590350340090_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=e982cd&_nc_eui2=AeHyAQ-FZRzGHonB3iFwH0vvc4erMqwLWytzh6syrAtbKxymsZDGbRV2-R9TplEXUKwXgn5Zdowc2ujS8W_0OOZf&_nc_ohc=zgT09-IjVscQ7kNvwEJddjP&_nc_oc=AdnTL4UY4QwkB3nLHv8BDysRWh8JQuy-abaLaC69XYbXZ9oPRCMR6WAzUSm-OGJU0Z8&_nc_zt=23&_nc_ht=scontent.fceb5-1.fna&_nc_gid=ro9vss_8A9kOa4xX183ylw&_nc_ss=8&oh=00_AfwLdaEWreQJcoFgaUE5MDa6ThZNTTXlY9NwXE8RpryCZQ&oe=69BE90AD", caption: "Our first laughs together" },
+    { url: "https://www.facebook.com/044636b5-83bd-416f-85e9-d4f8ce2af5b0", caption: "A moment I never want to forget" },
     { url: "https://scontent.fceb5-1.fna.fbcdn.net/v/t39.30808-6/633398153_122195280722377570_5466607508390172330_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=e982cd&_nc_eui2=AeHTDe2PGhJYfHp6MDPTjyDjw3VPzHKs9e3DdU_Mcqz17fa0m2SWzqXzrcTFshs0h_w-fH03L983tAL8oWCli1Xi&_nc_ohc=h48jFghCTqIQ7kNvwGsTPl6&_nc_oc=AdlopKwsGg-A1Yg5diQ8wdh2HnDaqXhznBgv6KBVs_45fPi2p6NUPFKQxrgucCwkF5E&_nc_zt=23&_nc_ht=scontent.fceb5-1.fna&_nc_gid=ro9vss_8A9kOa4xX183ylw&_nc_ss=8&oh=00_AfwlCgWRoU8rbJhXTW73Sej5BiKa0Idxw9K-Z3nbZu_Vpw&oe=69BE97F9", caption: "My favorite smile" },
-    { url: "HolPool.jpg", caption: "Just us being happy" }
+    { url: "https://scontent.fceb5-1.fna.fbcdn.net/v/t39.30808-6/631223877_122195280728377570_5872314590350340090_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=e982cd&_nc_eui2=AeHyAQ-FZRzGHonB3iFwH0vvc4erMqwLWytzh6syrAtbKxymsZDGbRV2-R9TplEXUKwXgn5Zdowc2ujS8W_0OOZf&_nc_ohc=zgT09-IjVscQ7kNvwEJddjP&_nc_oc=AdnTL4UY4QwkB3nLHv8BDysRWh8JQuy-abaLaC69XYbXZ9oPRCMR6WAzUSm-OGJU0Z8&_nc_zt=23&_nc_ht=scontent.fceb5-1.fna&_nc_gid=ro9vss_8A9kOa4xX183ylw&_nc_ss=8&oh=00_AfwLdaEWreQJcoFgaUE5MDa6ThZNTTXlY9NwXE8RpryCZQ&oe=69BE90AD", caption: "Just us being happy" }
   ];
 
   if (showIntro) {
